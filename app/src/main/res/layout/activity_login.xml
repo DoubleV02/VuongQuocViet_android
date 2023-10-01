@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/minion"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="User"
+            android:ems="24"
+            android:textSize="25dp"
+            android:layout_marginBottom="15dp"
+            android:background="#fff"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:ems="24"
+            android:inputType="textPassword"
+            android:textSize="25dp"
+            android:background="#fff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password ?"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Dang nhap"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="#CE06F1"
+            android:textColor="#fff"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Dang ky"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="#CE06F1"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+</RelativeLayout>
